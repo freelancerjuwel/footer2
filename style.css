@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F26724;
+    color: #f1f1f1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-wrap{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+
+
+
+.foter-top h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 2;
+    
+}
+
+
+
+
+.foter-bottom{
+    display: flex;
+    padding: 40px 0;
+    flex-wrap: wrap
+}
+
+
+
+.text1{
+    padding-right: 150px
+}
+
+.text1 h1{
+    line-height: 2;
+    font-weight: 400;
+}
+
+.say-hello input,
+.say-hello textarea{
+    display: block;
+    margin: 10px 0;
+    background: #FF8B53;
+    border: none;
+}
+
+
+
+.say-hello input,
+.say-hello textarea:hover{
+    outline: none;
+}
+
+
+.say-hello input,
+.say-hello textarea{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.say-hello textarea{
+    height: 50px;
+    outline: none;
+}
+
+.say-hello button:focus{
+    outline: none;
+}
+
+.say-hello button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    
+}
+
+.keep-cannect{
+    display: flex;
+    flex-direction: column;
+}
+.keep-cannect i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
